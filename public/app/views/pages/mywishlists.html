@@ -1,0 +1,9 @@
+<div class="page-header">
+    <h1><small>My Wish Lists</small></h1>
+</div>
+
+<div>
+    <ul ng-repeat="wishlist in main.wishlists">
+        <li><a ng-href="#"  ng-click="main.getWishlistItems(wishlist.wishlistnumber)">{{wishlist.wishlistname}}</a></li>
+    </ul>
+</div>
